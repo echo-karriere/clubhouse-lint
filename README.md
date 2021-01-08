@@ -2,6 +2,7 @@
 
 <p align="center">
    <a href="https://github.com/echo-karriere/clubhouse-lint/actions"><img alt="GitHub Actions Status" src="https://github.com/echo-karriere/clubhouse-lint/workflows/pipeline/badge.svg" /></a>
+   <a href="https://www.npmjs.com/package/@echo-karriere/clubhouse-lint"><img alt="npm" src="https://img.shields.io/npm/v/@echo-karriere/clubhouse-lint" /></a>
    <br />
 </p>
 
