@@ -3,7 +3,13 @@ import fs from "fs";
 export const main = (): void => {
   if (!process.env.HUSKY_GIT_PARAMS) throw new Error("Can't find $HUSKY_GIT_PARAMS");
   const commit = readFile(process.env.HUSKY_GIT_PARAMS);
-  return checkCommit(commit);
+  try {
+    checkCommit(commit);
+  } catch ({ message }) {
+    console.error(`\u001B[31mCLUBHOUSE-LINT:\u001B[0m ${message as string}`);
+    // eslint-disable-next-line no-process-exit
+    process.exit(1);
+  }
 };
 
 const RE_CORRECT_REF = RegExp(/^\[CH-\d+\]:/);
@@ -36,3 +42,5 @@ export const checkCommit = (commit: string): void => {
 };
 
 const readFile = (filename: string): string => fs.readFileSync(filename, { encoding: "utf-8" });
+
+if (process.env.NODE_ENV !== "test") main();
