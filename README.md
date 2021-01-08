@@ -32,6 +32,20 @@ We use [Clubhouse](https://clubhouse.io/) as our project management tool and to
 ensure that commit messages are consistent we made this utility to check commit
 messages when committing.
 
+# Usage
+
+To use you need to have [`husky`](https://github.com/typicode/husky) installed,
+then install this package: `yarn add -D @echo-karriere/clubhouse-lint`. Update
+the `husky` configuration:
+
+```json
+"husky": {
+  "hooks": {
+    "commit-msg": "clubhouse-lint"
+  }
+},
+```
+
 # Developing
 
 Run `yarn` to install packages and then `yarn dev` to start developing.
