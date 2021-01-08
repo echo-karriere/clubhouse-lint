@@ -42,7 +42,8 @@
   "prettier": "@sondr3/prettier",
   "husky": {
     "hooks": {
-      "pre-commit": "lint-staged"
+      "pre-commit": "lint-staged",
+      "commit-msg": "node dist/index.js"
     }
   },
   "lint-staged": {
