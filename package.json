@@ -1,0 +1,41 @@
+{
+  "name": "clubhouse-lint",
+  "version": "0.1.0",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@sondr3/eslint-config-typescript": "0.11.7",
+    "@sondr3/prettier": "0.3.7",
+    "@sondr3/tsconfig": "0.5.7",
+    "@types/jest": "26.0.20",
+    "@types/node": "14.14.20",
+    "eslint": "7.17.0",
+    "eslint-plugin-jest": "24.1.3",
+    "eslint-plugin-node": "11.1.0",
+    "husky": "4.3.7",
+    "jest": "26.6.3",
+    "lint-staged": "10.5.3",
+    "prettier": "2.2.1",
+    "typescript": "4.1.3"
+  },
+  "prettier": "@sondr3/prettier",
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx}": [
+      "eslint --fix",
+      "prettier --write"
+    ],
+    "*.{json,md}": [
+      "prettier --write"
+    ]
+  }
+}
