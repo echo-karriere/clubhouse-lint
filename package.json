@@ -10,7 +10,7 @@
   },
   "main": "dist/index",
   "files": [
-    "README",
+    "README.md",
     "LICENSE",
     "src/index.ts",
     "dist/index.ts"
@@ -18,7 +18,9 @@
   "scripts": {
     "build": "tsc",
     "dev": "tsc --watch",
-    "test": "jest"
+    "test": "jest",
+    "lint:ts": "eslint src/**/*.{ts,tsx}",
+    "lint:style": "prettier --check src/**/*.{ts,tsx}"
   },
   "dependencies": {},
   "devDependencies": {
