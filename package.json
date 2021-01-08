@@ -1,8 +1,20 @@
 {
-  "name": "clubhouse-lint",
+  "name": "@echo-karriere/clubhouse-lint",
   "version": "0.1.0",
-  "private": true,
   "license": "MIT",
+  "repository": "echo-karriere/clubhouse-lint",
+  "author": {
+    "name": "Sondre Nilsen",
+    "email": "sondre.nilsen@echokarriere.no",
+    "url": "https://www.eons.io/"
+  },
+  "main": "dist/index",
+  "files": [
+    "README",
+    "LICENSE",
+    "src/index.ts",
+    "dist/index.ts"
+  ],
   "scripts": {
     "build": "tsc",
     "dev": "tsc --watch",
