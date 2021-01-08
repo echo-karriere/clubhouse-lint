@@ -17,7 +17,7 @@
     "LICENSE",
     "bin",
     "src/index.ts",
-    "dist/index.ts"
+    "dist/index.js"
   ],
   "scripts": {
     "build": "tsc",
