@@ -42,5 +42,3 @@ export const checkCommit = (commit: string): void => {
 };
 
 const readFile = (filename: string): string => fs.readFileSync(filename, { encoding: "utf-8" });
-
-if (process.env.NODE_ENV !== "test") main();

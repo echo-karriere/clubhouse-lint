@@ -9,9 +9,11 @@
     "url": "https://www.eons.io/"
   },
   "main": "dist/index",
+  "bin": "./bin",
   "files": [
     "README.md",
     "LICENSE",
+    "bin",
     "src/index.ts",
     "dist/index.ts"
   ],
@@ -43,7 +45,7 @@
   "husky": {
     "hooks": {
       "pre-commit": "lint-staged",
-      "commit-msg": "node dist/index.js"
+      "commit-msg": "./bin"
     }
   },
   "lint-staged": {
