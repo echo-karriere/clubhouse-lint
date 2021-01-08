@@ -9,7 +9,9 @@
     "url": "https://www.eons.io/"
   },
   "main": "dist/index",
-  "bin": "./bin",
+  "bin": {
+    "clubhouse-lint": "./bin"
+  },
   "files": [
     "README.md",
     "LICENSE",
