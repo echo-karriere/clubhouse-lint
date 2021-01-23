@@ -527,10 +527,10 @@
     eslint-plugin-import "2.22.1"
     eslint-plugin-prettier "3.3.1"
 
-"@sondr3/prettier@0.3.7":
-  version "0.3.7"
-  resolved "https://registry.yarnpkg.com/@sondr3/prettier/-/prettier-0.3.7.tgz#229f4693deef83055531d93257b768e157765e21"
-  integrity sha512-bNQQ69wObFP4pWL6MQxBwJm4JIh6zQBh/78m8ny3ZT7URUTiDbZTyl3z2FZCxuAYA8jR4Q8B0O31pXNRJROCwg==
+"@sondr3/prettier@0.5.0":
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/@sondr3/prettier/-/prettier-0.5.0.tgz#ba3224d7c2003292dabb9b0439ee0e10a8e6d48b"
+  integrity sha512-VJUfrYgD9JykN4ZWd8fzstl8YK0gOyvqWca7W9mxdf6KYpPaehLk8B53b2jL5+IyVeVf9NpRrraXo3ohDcsxPg==
 
 "@sondr3/tsconfig@0.5.7":
   version "0.5.7"
