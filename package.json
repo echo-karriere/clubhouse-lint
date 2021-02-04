@@ -23,8 +23,8 @@
     "build": "tsc",
     "dev": "tsc --watch",
     "test": "jest",
-    "lint:ts": "eslint src/**/*.{ts,tsx}",
-    "lint:style": "prettier --check src/**/*.{ts,tsx}"
+    "lint:ts": "eslint src/**/*.ts",
+    "lint:style": "prettier --check src/**/*.ts"
   },
   "dependencies": {},
   "devDependencies": {

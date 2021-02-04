@@ -11,21 +11,20 @@ export const main = (): void => {
     checkCommit(commit);
   } catch ({ message }) {
     console.error(`\u001B[31mCLUBHOUSE-LINT:\u001B[0m ${message as string}`);
-    // eslint-disable-next-line no-process-exit
     process.exit(1);
   }
 };
 
 // Regex for a correct reference `[CH-123]:`
-const RE_CORRECT_REF = RegExp(/^\[CH-\d+\]:/);
+const RE_CORRECT_REF = new RegExp(/^\[CH-\d+]:/);
 // Regex for when the reference has the wrong case: `[ch-123]`
-const RE_WRONG_CASE_REF = RegExp(/^\[(ch|cH|Ch)(-|)\d+\]:/);
+const RE_WRONG_CASE_REF = new RegExp(/^\[(ch|cH|Ch)(-|)\d+]:/);
 // Regex for when the reference is missing a dash: `[CH123]:`
-const RE_MISSING_DASH_REF = RegExp(/^\[CH\d+\]:/);
+const RE_MISSING_DASH_REF = new RegExp(/^\[CH\d+]:/);
 // Regex for when you've copied the commit from Clubhouse: `Commit message [ch123]`
-const RE_CH_COMMIT_HELPER_REF = RegExp(/\[ch\d+\]/);
+const RE_CH_COMMIT_HELPER_REF = new RegExp(/\[ch\d+]/);
 // Regex for when the message is missing a colon: `[CH-123]`
-const RE_MISSING_COLON = RegExp(/^\[CH-\d+\]\s/);
+const RE_MISSING_COLON = new RegExp(/^\[CH-\d+]\s/);
 
 export const checkCommit = (commit: string): void => {
   // If the commit is correct or does not contain a reference, it is valid.
