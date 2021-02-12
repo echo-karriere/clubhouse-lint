@@ -1,12 +1,11 @@
-import fs from "fs";
-
 /**
  * Main entry point of linter, checks that the environment variable exists and
  * then runs the check if it does. Does not work outside of `husky`.
  */
 export const main = (): void => {
-  if (!process.env.HUSKY_GIT_PARAMS) throw new Error("Can't find $HUSKY_GIT_PARAMS");
-  const commit = readFile(process.env.HUSKY_GIT_PARAMS);
+  const cliArguments = process.argv;
+  if (cliArguments.length !== 3) throw new Error(`Incorrect CLI arguments, expected 3 but got ${cliArguments.length}`);
+  const commit = cliArguments[2];
   try {
     checkCommit(commit);
   } catch ({ message }) {
@@ -49,5 +48,3 @@ export const checkCommit = (commit: string): void => {
 
   throw new Error(`Unrecognized commit, aborting... Use '--no-verify' if this is a mistake`);
 };
-
-const readFile = (filename: string): string => fs.readFileSync(filename, { encoding: "utf-8" });
