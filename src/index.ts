@@ -6,6 +6,8 @@ export const main = (): void => {
   const cliArguments = process.argv;
   if (cliArguments.length !== 3) throw new Error(`Incorrect CLI arguments, expected 3 but got ${cliArguments.length}`);
   const commit = cliArguments[2];
+  console.log(cliArguments);
+  console.log(commit);
   try {
     checkCommit(commit);
   } catch ({ message }) {
