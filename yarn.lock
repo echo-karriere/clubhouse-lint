@@ -615,10 +615,10 @@
     eslint-plugin-sonarjs "0.5.0"
     eslint-plugin-unicorn "25.0.1"
 
-"@sondr3/prettier@0.5.0":
-  version "0.5.0"
-  resolved "https://registry.yarnpkg.com/@sondr3/prettier/-/prettier-0.5.0.tgz#ba3224d7c2003292dabb9b0439ee0e10a8e6d48b"
-  integrity sha512-VJUfrYgD9JykN4ZWd8fzstl8YK0gOyvqWca7W9mxdf6KYpPaehLk8B53b2jL5+IyVeVf9NpRrraXo3ohDcsxPg==
+"@sondr3/prettier@0.5.1":
+  version "0.5.1"
+  resolved "https://registry.yarnpkg.com/@sondr3/prettier/-/prettier-0.5.1.tgz#57963006b54e5524e11e5e60b57bc10fe3522879"
+  integrity sha512-Yk45ixyzfACfPfxYArXrpBAuqWRk8KujiyrANKnQyqlvDaW1gaN1XHvk620UGGvM1vrPMldyE7R+LduEteH8Iw==
 
 "@sondr3/tsconfig@0.7.0":
   version "0.7.0"
