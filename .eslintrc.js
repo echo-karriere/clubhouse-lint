@@ -3,9 +3,13 @@ module.exports = {
     ecmaVersion: 2020,
     project: "./tsconfig.json",
   },
-  extends: ["@sondr3/typescript", "plugin:node/recommended-module", "plugin:jest/recommended", "plugin:jest/style"],
+  extends: [
+    "@sondr3/eslint-config/typescript",
+    "@sondr3/eslint-config/node",
+    "plugin:jest/recommended",
+    "plugin:jest/style",
+  ],
   rules: {
     "no-process-exit": "off",
-    "unicorn/no-process-exit": "off",
   },
 };
