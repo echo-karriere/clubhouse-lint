@@ -788,10 +788,10 @@
   dependencies:
     "@sinonjs/commons" "^1.7.0"
 
-"@sondr3/eslint-config@0.6.0":
-  version "0.6.0"
-  resolved "https://registry.yarnpkg.com/@sondr3/eslint-config/-/eslint-config-0.6.0.tgz#8bd6cf96846f46d8a667e112ba70541df8db4a0d"
-  integrity sha512-ps05IlHeRopSLQGN1DjF4lQo1wARrmfIWVw+XT7c+q3VvxAszRj9vGIJSZRfF6DYgJDvb0jpYTipFBSvVCtF8A==
+"@sondr3/eslint-config@0.7.0":
+  version "0.7.0"
+  resolved "https://registry.yarnpkg.com/@sondr3/eslint-config/-/eslint-config-0.7.0.tgz#ca00af926455e08023b06cfb354bcd52e66e41be"
+  integrity sha512-einlJhuiC+CMXxXUScy5/zl3Xe50YnM+PShQhwbFtL2jrvatAIGPcuVk4LnxBsEYLgMOQrBaWFPWtj81XGFZeQ==
   dependencies:
     deepmerge "4.2.2"
 
