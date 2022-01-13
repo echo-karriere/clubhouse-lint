@@ -978,10 +978,10 @@
   dependencies:
     deepmerge "4.2.2"
 
-"@sondr3/prettier@0.5.1":
-  version "0.5.1"
-  resolved "https://registry.yarnpkg.com/@sondr3/prettier/-/prettier-0.5.1.tgz#57963006b54e5524e11e5e60b57bc10fe3522879"
-  integrity sha512-Yk45ixyzfACfPfxYArXrpBAuqWRk8KujiyrANKnQyqlvDaW1gaN1XHvk620UGGvM1vrPMldyE7R+LduEteH8Iw==
+"@sondr3/prettier@0.6.0":
+  version "0.6.0"
+  resolved "https://registry.yarnpkg.com/@sondr3/prettier/-/prettier-0.6.0.tgz#f45b41553ed99085af23d6360b1b475806b2883d"
+  integrity sha512-BvhOdLFESrlzSYTjnA/ENY7DbhX7f2FZMXo8D/4AUeBE9bN6vpoVpHkudmwRyyixNifbGB4dv9rojDrft9uF7w==
 
 "@sondr3/tsconfig@0.7.0":
   version "0.7.0"

@@ -32,7 +32,7 @@
   "dependencies": {},
   "devDependencies": {
     "@sondr3/eslint-config": "0.7.1",
-    "@sondr3/prettier": "0.5.1",
+    "@sondr3/prettier": "0.6.0",
     "@sondr3/tsconfig": "0.7.0",
     "@types/jest": "27.4.0",
     "@types/node": "16.11.19",
