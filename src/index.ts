@@ -6,7 +6,9 @@ import fs from "fs";
  */
 export const main = (): void => {
   const cliArguments = process.argv;
-  if (cliArguments.length !== 3) throw new Error(`Incorrect CLI arguments, expected 3 but got ${cliArguments.length}`);
+  if (cliArguments.length !== 3) {
+    throw new Error(`Incorrect CLI arguments, expected 3 but got ${cliArguments.length}`);
+  }
   const commit = readFile(cliArguments[2]);
   try {
     checkCommit(commit);
