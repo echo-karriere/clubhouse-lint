@@ -35,7 +35,7 @@
     "@sondr3/prettier": "0.6.0",
     "@sondr3/tsconfig": "0.7.0",
     "@types/jest": "27.5.2",
-    "@types/node": "16.11.62",
+    "@types/node": "16.11.64",
     "@typescript-eslint/eslint-plugin": "5.39.0",
     "@typescript-eslint/parser": "5.39.0",
     "eslint": "8.24.0",
