@@ -48,7 +48,7 @@
     "eslint-plugin-tsdoc": "0.2.17",
     "husky": "7.0.4",
     "jest": "27.5.1",
-    "lint-staged": "12.5.0",
+    "lint-staged": "14.0.0",
     "pinst": "3.0.0",
     "prettier": "2.8.8",
     "prettier-eslint": "13.0.0",
