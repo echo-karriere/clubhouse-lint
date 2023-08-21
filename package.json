@@ -33,7 +33,7 @@
   "devDependencies": {
     "@sondr3/eslint-config": "0.7.1",
     "@sondr3/prettier": "0.6.0",
-    "@sondr3/tsconfig": "0.7.0",
+    "@sondr3/tsconfig": "0.9.0",
     "@types/jest": "27.5.2",
     "@types/node": "16.18.41",
     "@typescript-eslint/eslint-plugin": "5.62.0",

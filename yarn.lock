@@ -1036,10 +1036,10 @@
   resolved "https://registry.yarnpkg.com/@sondr3/prettier/-/prettier-0.6.0.tgz#f45b41553ed99085af23d6360b1b475806b2883d"
   integrity sha512-BvhOdLFESrlzSYTjnA/ENY7DbhX7f2FZMXo8D/4AUeBE9bN6vpoVpHkudmwRyyixNifbGB4dv9rojDrft9uF7w==
 
-"@sondr3/tsconfig@0.7.0":
-  version "0.7.0"
-  resolved "https://registry.yarnpkg.com/@sondr3/tsconfig/-/tsconfig-0.7.0.tgz#0a3b1bf5c9b276cdf5d7d014fc2a4f010ff7e054"
-  integrity sha512-MUlEyV/jrBvX08e60kzu8vTZI+xS+jRZeu03X1eu95D4H6lQcYM39OqG6snyFBIoKK9u/Fs/964u9ImlmE+MUg==
+"@sondr3/tsconfig@0.9.0":
+  version "0.9.0"
+  resolved "https://registry.yarnpkg.com/@sondr3/tsconfig/-/tsconfig-0.9.0.tgz#1495800bbab4602e2eb2a5c308a0baa539234385"
+  integrity sha512-bUOYmbuOKOsWWwUlWFYfWjpwcqrT7ZNVOKGOGxVEcgOLtraOQERhuYGYPjraXoIKrYkUlvWUzhJTQfGPkj2H9Q==
 
 "@tootallnate/once@1":
   version "1.1.2"
